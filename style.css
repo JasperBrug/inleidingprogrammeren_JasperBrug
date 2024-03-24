@@ -27,12 +27,10 @@ img{
 }
 main{
     width: 50%;
-    background-color: aliceblue;
-    display: flex;
-   
+    
     position: fixed;
     top: 300px;
-    left: 100px;
+    left: 300px;
 }
 
 
@@ -82,3 +80,25 @@ main{
     width: 50px;
     height: 50px;
 }
+
+.kruis{
+    width: 80px;
+    height: 80px;
+    align-self: flex-start;
+}
+
+div{
+    display: flex;
+    column-gap: 1em;
+    align-items: center;
+    background-color: aliceblue;
+    transform: scale(1.5, 1.5);
+    
+}
+
+footer{
+    position: fixed;
+    top: 700px;
+}
+
+
